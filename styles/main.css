@@ -1,0 +1,137 @@
+body{
+  background-color: #333;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#main-header{
+  background-color: teal;
+  color: #fff;
+
+}
+
+#navbar{
+  background-color: #444;
+  color: #fff;
+
+}
+
+#navbar ul{
+  padding: 0;
+  list-style: none;
+
+}
+
+#navbar li{
+  display: inline;
+
+}
+
+#navbar a{
+
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
+}
+
+#showcase{
+  background-image:url('../greenhouse.jpg');
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  margin-bottom: 30px;
+  text-align: left;
+
+}
+
+#showcase h1{
+  color: teal;
+  font-size: 200px;
+  line-height: 1.7em;
+  
+  text-shadow: 1px 1px 2px black;
+  
+}
+#showcase h3{
+  color: teal;
+  font-size: 30px;
+  line-height: 1.6em;
+  padding-top: 30px;
+  text-shadow: 0.5px 0.5px 1px black;
+}
+#main{
+  color: white;
+  float: left;
+  width: 70%;
+  padding: 0 30px;
+  box-sizing: border-box;
+
+}
+
+#sidebar{
+  color: white;
+  float: right;
+  width: 30%;
+  background: #333;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 10px;
+  border-color: teal;
+  border-width: 5px;
+  border-style: solid;
+}
+
+#main-footer{
+  background: #444;
+  color: #FFF;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+@media(max-width:600px){
+  #main{
+      width: 100%;
+      float:none;
+
+  }
+  #sidebar{
+      width: 100%;
+      float:none;
+      
+      
+  }
+}
+/* here starts information for sprint1*/
+
+#headingsprint1{
+  color: white;
+  text-align: left;
+  padding: 0px 20px 0px 20px;
+}
+
+#para1sprint1{
+  color: white;
+  padding: 2%;
+}
+
+#footersprint1{
+  background: #444;
+  color: #FFF;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
