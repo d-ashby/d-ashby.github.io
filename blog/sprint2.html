@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>sprint2</title>
+    <meta charset="UTF-8">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="container">
+          <ul>
+              <li><a href="../index.html">home</a></li>
+              <li><a href="../blog/sprint1.html">sprint 1</a></li>
+              <li><a href="../blog/sprint2.html">sprint 2</a></li>
+              <li><a href="#">sprint 3</a></li>
+              <li><a href="#">sprint 4</a></li>
+              <li><a href="#">sprint 5</a></li>
+              <li><a href="blog/te-houtaewa-template.html">the story of Te-houtaewa</a></li>
+          </ul>
+      
+     </div>
+  </nav>  
+    <Section id="headingsprint1">
+      <div>
+        <h1>Sprint 2</h1>
+        <h2>A technical review </h2>
+        <h3>What are the differences between static, relative, absolute, and fixed positioning? <br> 20 April 2022</h3>
+      </div>
+    </Section>
+  <section id="para1sprint2">
+    <div>
+    <p>
+      position:static; Websites by default have elements position themselves statically, this means that they are laid out how they are laid out in the html document. The order of the elements that are added to the HTML file is the order that they are displayed via the browser (chrome, firefox, safari).
+    </p>
+    <img src="../html for boxes.png" alt="fixed-boxes"
+      width="600px" height="390">
+      <br>
+      <div class="cropped">
+        <img src="../boxes static positioning .png" alt="fixed-boxes">
+      </div>
+    <p>
+      position:relative; or <strong>Relative</strong> positioning is moving an element in relation to where it supposed to be statically. For example if an element is specified to have <br><em>position:relative; top:150px; left:50px;</em><br> The box specified moves 150 pixels from the top, and 50 pixels from the left, in other words its moved down to the right or south-east. 
+    </p>
+    <div >
+      <img src="../relative positioning.png" alt="relative boxes css"
+      width="600px" height="800">
+    </div>
+    <div class="cropped">
+      <img src="../Boxes relative positioning.png" alt="fixed-boxes">
+    </div>
+    <p>
+      Position:absolute; or <strong>absolute positioning</strong>, changes an elements position based on the container I'ts in. I'ts the same in the sense that you move an element using top, left, right, bottom - however it moves the element not based on where it was supposed to be (relative positioning) but move based on the container(in this instance its the webpage acting as the container). This absolute positioning removes the element from the flow of static elements therefore if you have following elements they will then 'move up the list' and take the position of the element that you have moved using absolute positioning. See below how the blue violet moves up to the coral boxes original static position.  
+    </p>
+    <div >
+      <img src="../position absolute.png" alt="absolute boxes css"
+      width="600px" height="800">
+    </div>
+    <div class="cropped">
+      <img src="../boxes absolute positioning.png" alt="absolute-boxes">
+    </div>
+    <p>position:fixed; or <strong>fixed positioning</strong>, causes the element to stay in a position relative to window of the browser (viewport). For example 'position:fixed; top:0;' would be useful to always have a banner position itself at the top of the page. despite scrolling this fixed position never changes because it is fixed to the window not the webpage. You can see below the coral box remains in the same position! </p>
+      <div class="cropped">
+        <img src="../fixed-boxes.gif" alt="fixed-boxes">
+      </div>
+    </div>
+    <p>
+  
+    </p>
+  </section>
+  <Footer id="footersprint1">
+    <p>copyright &copy; 2022</p>
+  </Footer>
+  
+  </body>
+</html>

@@ -135,3 +135,17 @@ body{
   margin-top: 40px;
   padding-bottom: 20px;
 }
+/* here starts information for sprint2*/
+#para1sprint2{
+color: white;
+padding-left: 100px;
+padding-right: 300px;
+
+}
+
+.cropped {
+  overflow: hidden;
+  }
+  .cropped img {
+  margin: 0px 0px -280px 0px;
+  }
