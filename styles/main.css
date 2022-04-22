@@ -149,3 +149,17 @@ padding-right: 300px;
   .cropped img {
   margin: 0px 0px -280px 0px;
   }
+
+/*learning plan css*/
+.learning1{
+  color: white;
+  display: block;
+  padding-left: 10%;
+  padding-right: 10%;
+  inline-size: 700px;
+}
+@media(max-width:800px){
+  .learning1{
+      inline-size: 400px;
+      color: red;
+  }
